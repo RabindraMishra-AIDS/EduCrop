@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBL</title>
+    <link rel="stylesheet" href="FAQ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="header">
+        <img src="images/logo2.png">
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="RBL- II grp 23,26,45.pdf" target="_blank">Research Paper</a></li>
+                <li><a href="https://rabindramishra.wordpress.com/2024/01/15/crop-yield-prediction-using-ml/" >Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2>FAQ's</h2>
+    <div class="accordian">
+        <div class="question">
+            <h4>What is Educrop ?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Educrop is an Agritech Responsive Website which is developed under the Course RBL. <br> Educrop Basically Means Education + Crop.  </p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>What do you mean by RBL?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>RBL means (Research based Learning). Under this course we have to develop our Projects based on Research and Learnings from our Btech. Where in Semester-IV and Semester-V we have to do case studies and write Research Papers.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>What is the Main Purpose of Educrop?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Main Objective of Educrop is to Predict the crop Yield based on Datasets and Various Machine Learning Models. <br>
+            Instead of Using Traditional Methods Educrop Provides Farmers to use Modernistic Approach to determine their Yield of crops and Hence Be ready for the outcomes and results.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>What is  Machine  Learning ?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Machine Learning(ML) can be explained as automating and improving the learning process of computers based on their experiences without being actually programmed.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>Where is Data Visualization ?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Please Click on our Website Logo on the Home Page. <br> After doing so you may successfully see the data Visualization made in Power BI.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>Not able to open our Blog?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Please try to  Sign-in to Wordpress sucessfully. <br> Only after Sign-in you would be able to see our Beautiful Blog.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>What is the Format of your Research Paper?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Research Paper is in IEEE (Institute of Electrical and Electronics Engineers) format.</p>
+        </div>
+    </div>
+
+    <div class="accordian">
+        <div class="question">
+            <h4>What are the Prerequisites For the Users?</h4>
+            <i class="icon fa fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Basic Understanding of English. <br>Should Know to Use Laptops/Computers.</p>
+        </div>
+    </div>
+<!-------------------- Java Script  --------------------------->
+<script>
+const accordians=document.querySelectorAll('.accordian');
+accordians.forEach(accordian =>{
+    const icon=accordian.querySelector('.icon');
+    const answer = accordian.querySelector('.answer');
+
+    accordian.addEventListener('click',()=>{
+        icon.classList.toggle('active');
+        answer.classList.toggle('active');
+    })
+})
+
+</script>
+</body>
+</html>
